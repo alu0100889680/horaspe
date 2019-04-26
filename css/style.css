@@ -1,0 +1,56 @@
+html, body {
+  margin: auto;
+  padding: 0;
+}
+
+#head, #subhead {
+  background-color: #72C6E7;
+  font-family: Oswald;
+  color: white;
+  font-size: 3.5em;
+  display: block;
+}
+
+#app {
+  height: 100vh;
+}
+
+#head {
+  padding-top: 5%;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+#subhead {
+  font-size: 0.4em;
+  padding-bottom: 5%;
+  font-family: Open Sans;
+}
+
+#superior {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #DAADDA;
+  font-family: Orbitron;
+  color: white;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #DAADDA;
+  font-family: Orbitron;
+  font-size: 3.6em;
+  color: white;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.inline {
+  display: inline;
+}
+
+.row {
+  width: 100%;
+}
