@@ -1,10 +1,12 @@
-html, body {
+html,
+body {
   margin: auto;
   padding: 0;
 }
 
-#head, #subhead {
-  background-color: #72C6E7;
+#head,
+#subhead {
+  background-color: #72c6e7;
   font-family: Oswald;
   color: white;
   font-size: 3.5em;
@@ -30,7 +32,7 @@ html, body {
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: #DAADDA;
+  background-color: #daadda;
   font-family: Orbitron;
   color: white;
 }
@@ -39,12 +41,18 @@ html, body {
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: #DAADDA;
+  background-color: #daadda;
   font-family: Orbitron;
   font-size: 3.6em;
   color: white;
   padding-top: 9%;
   padding-bottom: 9%;
+}
+
+@media (max-width: 600px) {
+  #container {
+    font-size: 3em;
+  }
 }
 
 .inline {
